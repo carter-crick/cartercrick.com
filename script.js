@@ -159,3 +159,8 @@ function watch() {
     console.log("watch failed")
   }
 }
+
+//DEVELOPMENT BUTTON - Go to calculator
+function goToCalc() {
+  window.open("Calc.html", "_blank");
+}
