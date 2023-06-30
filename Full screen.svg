@@ -1,0 +1,18 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Full screen" clip-path="url(#clip0_5_91)">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M24.5 14.5V9.5H9.5V24.5H14.5V18.0355L25.2323 28.7677L28.7677 25.2323L18.0355 14.5H24.5ZM25.2323 35.2323L14.5 45.9645V39.5H9.5V54.5H24.5V49.5H18.0355L28.7677 38.7677L25.2323 35.2323ZM49.5 45.9644L38.7679 35.2323L35.2323 38.7677L45.9644 49.5H39.5V54.5H54.5V39.5H49.5V45.9644ZM56.5 0H7.5C3.3645 0 0 3.3645 0 7.5V56.5C0 60.6355 3.3645 64 7.5 64H56.5C60.6355 64 64 60.6355 64 56.5V7.5C64 3.3645 60.6355 0 56.5 0ZM59 56.5C59 57.8785 57.8785 59 56.5 59H7.5C6.1215 59 5 57.8785 5 56.5V7.5C5 6.1215 6.1215 5 7.5 5H56.5C57.8785 5 59 6.1215 59 7.5V56.5ZM39.5 14.5H45.9644L35.2321 25.2323L38.7677 28.7677L49.5 18.0356V24.5H54.5V9.5H39.5V14.5Z" fill="url(#paint0_linear_5_91)"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5_91" x1="32" y1="64" x2="32" y2="0" gradientUnits="userSpaceOnUse">
+<stop stop-color="#009EFD"/>
+<stop offset="1" stop-color="#2AF598"/>
+</linearGradient>
+<clipPath id="clip0_5_91">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
+</svg>

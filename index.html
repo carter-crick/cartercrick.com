@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carter Crick</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-32x32.png">
+    <link rel="manifest" href="./site.webmanifest">
+</head>
+<body class="container" id="anchr1">
+    <script src="script.js"></script>
+    <div class="section">
+        <header>
+            <img src="./ccpfp.png" alt="Headshot of Carter Crick" class="pfp" id="ccpfp">
+            <div class="rightSection">
+                <h1>Carter Crick</h1>
+                <div class="headerBody">
+                    <div class="overviewCtn">
+                        <p id="overview">Professionally skilled in Warehouse Management and Video Production. I thrive in process automation, efficiency, and creativity. 8 years of experience in all aspects of video production and film direction. 5 years of experience in Inventory Management.</p>
+                    </div>
+                    <div class="headerBtns">
+                        <div class="contactBtns">
+                            <div class="contactBtn"><a href="tel:+1602-421-79777"><img src="./Phone call.svg" alt="Call Icon"></a>
+                                <p class="contactTxt">Call</p>
+                            </div>
+                            <div class="contactBtn"><a href="sms:+1602-421-79777"><img src="./Chat.svg" alt="Message Icon"></a>
+                                <p class="contactTxt">Message</p>
+                            </div>
+                            <div class="contactBtn">
+                                <a href="mailto:carter.crick@gmail.com"><img src="./Email.svg" alt="Email Icon"></a>
+                                <p class="contactTxt">Email</p>
+                            </div>
+                        </div>
+                        <div class="bigCTA">
+                            <a href="#anchr2"><button id="seeMyWorkBtn">See my work</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <p id="overview2">Professionally skilled in Warehouse Management and Video Production. I thrive in process automation, efficiency, and creativity. 8 years of experience in all aspects of video production and film direction. 5 years of experience in Inventory Management.</p>
+    </div>
+    <main class="section" id="anchr2">
+        <div class="pfpAndTitle toHide hidden">
+        <a href="index.html"><img src="./ccpfp.png" alt="" id="pfpSmall"></a>
+        <h2>Take Me Home (Music Video)</h2>
+        </div>
+        <div class="contentCtrls toHide hidden">
+            <img src="./Send.svg" alt="Share Button" onclick="copyText()">
+            <p class="contentCtrlsTxt">Share</p>
+            <img src="./Full screen.svg" 
+            alt="Learn More Button" id="shareBtn" onclick="watch()">
+            <p class="contentCtrlsTxt">Watch</p>
+        </div>
+        <div class="contentPlaceholder" id="video1"><video src="./TakeMeHomePreview.mp4" controls autoplay loop></video></div>
+        <!-- <div class="portfolioCategories toHide hidden">
+            <div class="category"><a href=""><img src="./Play.svg" alt=""></a>
+                <p class="categoryTxt">Visual Art</p>
+            </div>
+            <div class="category"><a href=""><img src="./Measuring.svg" alt=""></a>
+                <p class="categoryTxt">Design</p>
+            </div>
+            <div class="category"><a href=""><img src="./Programming.svg" alt=""></a>
+                <p class="categoryTxt">Development</p>
+            </div>
+        </div> -->
+    </main>
+    <div class="contentPlaceholder section" id="video2"><video src="./CougarsPlayoffsPreview.mp4" controls autoplay loop></video></div>
+    <div class="contentPlaceholder section" id="video3"><video src="./PapaRoachPreview.mp4" controls autoplay loop></video></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+</body>
+</html>

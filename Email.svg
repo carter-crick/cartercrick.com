@@ -1,0 +1,11 @@
+<svg width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Email">
+<path id="Vector" d="M54.7344 8.23438H7.26562C3.25936 8.23438 0 11.4937 0 15.5V46.5C0 50.5063 3.25936 53.7656 7.26562 53.7656H54.7344C58.7406 53.7656 62 50.5063 62 46.5V15.5C62 11.4937 58.7406 8.23438 54.7344 8.23438ZM54.2929 13.0781L31 30.4035L7.70713 13.0781H54.2929ZM54.7344 48.9219H7.26562C5.9302 48.9219 4.84375 47.8354 4.84375 46.5V16.985L31 36.4403L57.1562 16.985V46.5C57.1562 47.8354 56.0698 48.9219 54.7344 48.9219Z" fill="url(#paint0_linear_5_35)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_5_35" x1="31" y1="8.23438" x2="31" y2="53.7656" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2AF598"/>
+<stop offset="1" stop-color="#009EFD"/>
+</linearGradient>
+</defs>
+</svg>
