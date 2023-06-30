@@ -8,6 +8,25 @@ window.addEventListener('load', function() {
 
   const videos = document.querySelectorAll('video');
 
+  const leftArrow = document.getElementById('leftArrow');
+  const rightArrow = document.getElementById('rightArrow');
+  
+  leftArrow.addEventListener('click', function() {
+      if (isScrolling || currentIndex <= 0) return;
+      currentIndex--;
+      isScrolling = true;
+      scrollToElement(sections[currentIndex]);
+      setTimeout(() => { isScrolling = false; }, 800);
+  });
+  
+  rightArrow.addEventListener('click', function() {
+      if (isScrolling || currentIndex >= sections.length - 1) return;
+      currentIndex++;
+      isScrolling = true;
+      scrollToElement(sections[currentIndex]);
+      setTimeout(() => { isScrolling = false; }, 800);
+  });
+
   function scrollToElement(element) {
     if (currentIndex === 0) {
       location.reload();
@@ -128,15 +147,15 @@ function watch() {
   var h2Text = h2Element.textContent;
   console.log("attempting to copy " + h2Text)
   if (h2Text == "Take Me Home (Music Video)") {
-    window.location.href = "https://youtu.be/83Cbeimea3w";
+    window.open("TakeMeHome.html", "_blank");
   }
   else if (h2Text == "Cougars Playoffs EP3") {
-    window.location.href = "https://youtu.be/hithCxPgOpQ";
+    window.open("CougarsPlayoffsEP3.html", "_blank");
     }
   else if (h2Text == "Papa Roach - Ace of Spades"){
-    window.location.href = "https://youtu.be/TW-1drik3gU";
+    window.open("AceOfSpades.html", "_blank");
   }
   else {
-    console.log("share failed")
+    console.log("watch failed")
   }
 }

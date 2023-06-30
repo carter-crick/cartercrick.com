@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Left chevron" clip-path="url(#clip0_41_2)">
+<path id="Vector" d="M64.25 128L0.25 64L64.25 0L81.832 17.582L35.4229 63.9922L35.415 64L81.832 110.418L64.25 128Z" fill="#4ED8DF"/>
+<path id="Vector_2" d="M110.49 128L46.4902 64L46.4971 63.9922L110.49 0L128.072 17.582L81.6621 63.9922L81.6553 64L128.072 110.418L110.49 128Z" fill="#4ED8DF"/>
+<g id="Group">
+<path id="Vector_3" d="M81.832 110.418L64.25 128L0.25 64L0.257812 63.9922H35.4229L35.415 64L81.832 110.418Z" fill="#11A9C6"/>
+<path id="Vector_4" d="M46.4902 64L46.4971 63.9922H81.6621L81.6553 64L128.072 110.418L110.49 128L46.4902 64Z" fill="#11A9C6"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_41_2">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+</defs>
+</svg>
