@@ -123,17 +123,17 @@ function copyText() {
   console.log("attempting to copy " + h2Text)
   if (h2Text == "Take Me Home (Music Video)") {
   navigator.clipboard.writeText
-      ("https://youtu.be/83Cbeimea3w");
+      ("https://carter-crick.github.io/cartercrick.com/TakeMeHome.html");
   alert("Link to 'Take Me Home (Music Video)' has been copied to the clipboard!");
   }
   else if (h2Text == "Cougars Playoffs EP3") {
     navigator.clipboard.writeText
-        ("https://youtu.be/hithCxPgOpQ");
+        ("https://carter-crick.github.io/cartercrick.com/CougarsPlayoffsEP3.html");
     alert("Link to 'Cougars Playoffs EP3' has been copied to the clipboard!");
     }
   else if (h2Text == "Papa Roach - Ace of Spades"){
     navigator.clipboard.writeText
-    ("https://youtu.be/TW-1drik3gU");
+    ("https://carter-crick.github.io/cartercrick.com/AceOfSpades.html");
     alert("Link to 'Papa Roach - Ace of Spades' has been copied to the clipboard!");
   }
   else {
