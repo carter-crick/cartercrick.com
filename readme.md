@@ -30,8 +30,8 @@ When pandown or panup is caught by the event listener, I use a javascript functi
 
 The Hammer.js functions didn't work well for destop, so I added arrow buttons that appear on desktop that do the same thing as panup and pandown on mobile
 
---
+----
 
 I also deployed a function that checks the position in order to play, pause, unmute, and mute based on if the video is in view
 
---
+----
